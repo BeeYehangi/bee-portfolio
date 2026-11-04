@@ -20,7 +20,3 @@ Almost everything lives in `lib/site.ts`: name, email, links, skills and project
 - **The "Next up" card:** when your ML notebook is ready, remove `planned: true`, add `github` and `image`, and rewrite the description.
 - **Status panel in the hero:** `components/status-panel.tsx`.
 - **Accent colour:** change the `--primary` values in `app/globals.css` (hue `180` is teal; try `265` for indigo).
-
-## Deploy for free
-
-Push the project to a GitHub repository, then import it at vercel.com. Vercel builds and hosts it, and updates it every time you push.
